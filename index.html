@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Spotify Playlist</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="src/styles.css" />
+  </head>
+  <body>
+    <div class="playlist-container">
+      <h1>CREATE PLAYLIST</h1>
+      <img src="images/spotify.png" alt="#" />
+      <form>
+        <label class="form-label" for="playlist-title">Playlist Title*</label>
+        <br />
+        <input
+          type="text"
+          class="input-title"
+          id="playlist-title"
+          value=""
+          placeholder="Input your playlist title"
+        />
+        <br />
+        <label class="form-label" for="playlist-desc">Description*</label>
+        <br />
+        <textarea
+          type="text"
+          class="input-desc"
+          id="playlist-desc"
+          value=""
+          placeholder="Input the description"
+        ></textarea>
+        <input id="submit" class="submit-button" type="button" value="CREATE" />
+      </form>
+    </div>
+    <div class="song-container">
+      <img src="images/album.jpg" alt="#" />
+      <h3 class="title">Death with Dignity</h3>
+      <p class="artist">Sufjan Stevens</p>
+      <p class="album">
+        Album . Carrie & Lowell . 2021
+      </p>
+      <button class="button-play">Add to playlist</button>
+    </div>
+    <script src="src/index.js"></script>
+  </body>
+</html>
